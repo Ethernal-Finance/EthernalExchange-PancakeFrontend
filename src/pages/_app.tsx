@@ -57,7 +57,7 @@ function MyApp(props: AppProps) {
           content="Cheaper and faster than pancakeswap? Discover EthernalSwap, the upcoming DEX on BNB Smart Chain (BSC) "
         />
         <meta name="theme-color" content="#1FC7D4" />
-        <meta name="twitter:image" content="https://pancakeswap.finance/images/hero.png" />
+        <meta name="twitter:image" content="./images/hero.png" />
         <meta
           name="twitter:description"
           content="Cheaper and faster than pancakeswap? Discover EthernalSwap, the upcoming DEX on BNB Smart Chain (BSC)"
