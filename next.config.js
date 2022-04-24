@@ -18,7 +18,7 @@ const sentryWebpackPluginOptions =
         // Set to env false will skip deploying release on Sentry except Production
         // https://github.com/getsentry/sentry-webpack-plugin/blob/master/src/index.js#L522
         deploy: {
-          env: process.env.VERCEL_ENV,
+          env: process.env,
         },
         // For all available options, see:
         // https://github.com/getsentry/sentry-webpack-plugin#options.
@@ -36,7 +36,7 @@ const config = {
   experimental: {
     scrollRestoration: true,
   },
-  reactStrictMode: true,
+  reactStrictMode: false,
   images: {
     domains: ['static-nft.Ethernalswap.com'],
   },
