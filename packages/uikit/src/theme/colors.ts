@@ -23,7 +23,7 @@ export const lightColors: Colors = {
   ...additionalColors,
   background: "#EEEEEE",
   backgroundDisabled: "#E9EAEB",
-  backgroundAlt: "#DD6E0A",
+  backgroundAlt: "#b8b6ba",
   backgroundAlt2: "rgba(255, 255, 255, 0.7)",
   cardBorder: "#E7E3EB",
   contrast: "#191326",
@@ -35,7 +35,7 @@ export const lightColors: Colors = {
   tertiary: "#EFF4F5",
   text: "#280D5F",
   textDisabled: "#BDC2C4",
-  textSubtle: "#7A6EAA",
+  textSubtle: "#DD6E0A",
   disabled: "#E9EAEB",
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #E5FDFF 0%, #F3EFFF 100%)",
