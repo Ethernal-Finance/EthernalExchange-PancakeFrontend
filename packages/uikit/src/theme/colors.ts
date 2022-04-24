@@ -23,7 +23,7 @@ export const lightColors: Colors = {
   ...additionalColors,
   background: "#EEEEEE",
   backgroundDisabled: "#E9EAEB",
-  backgroundAlt: "#FFFFFF",
+  backgroundAlt: "#DD6E0A",
   backgroundAlt2: "rgba(255, 255, 255, 0.7)",
   cardBorder: "#E7E3EB",
   contrast: "#191326",
