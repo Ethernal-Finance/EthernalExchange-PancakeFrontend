@@ -38,7 +38,7 @@ const config = {
   },
   reactStrictMode: true,
   images: {
-    domains: ['static-nft.pancakeswap.com'],
+    domains: ['static-nft.Ethernalswap.com'],
   },
   async rewrites() {
     return [
@@ -73,13 +73,12 @@ const config = {
         destination: '/add/:currency*',
         permanent: true,
       },
-      
+
       {
         source: '/pool',
         destination: '/liquidity',
         permanent: true,
       },
-      
     ]
   },
 }
