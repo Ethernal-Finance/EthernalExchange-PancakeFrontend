@@ -5,7 +5,7 @@ export const DEFAULT_META: PageMeta = {
   title: 'EthernalSwap',
   description:
     'The most popular AMM on BSC by user count! Earn Ethfin through Trading , then stake it in Syrup Pools to earn more tokens! Initial Farm Offerings (new token launch model pioneered by EthernalSwap), NFTs, and more, on a platform you can trust.',
-  image: 'https://ethernalSwap.com/images/hero.png',
+  image: 'https://ethernalswap.com/images/hero.png',
 }
 
 export const getCustomMeta = (path: string, t: ContextApi['t']): PageMeta => {
