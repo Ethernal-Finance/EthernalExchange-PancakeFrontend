@@ -12,9 +12,9 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
       },
       {
         label: t('Swap'),
-        href: 'https://exchange.ethernalfinance.io',
+        href: 'https://ethernalswap.com/',
       },
-      
+
       {
         label: t('Rewards Center'),
         href: 'https://app.ethernalfinance.io',
@@ -36,11 +36,10 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
       },
     ],
   },
-  
+
   {
     label: t('Developers'),
     items: [
-      
       {
         label: t('Careers (Coming Soon)'),
         href: '',

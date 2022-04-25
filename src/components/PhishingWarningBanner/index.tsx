@@ -56,8 +56,8 @@ const PhishingWarningBanner: React.FC = () => {
           key={i}
           small
           as="span"
-          bold={text === 'https://Ethernalswap.com//'}
-          color={text === 'https://Ethernalswap.com//' ? '#FFFFFF' : '#BDC2C4'}
+          bold={text === 'https://ethernalswap.com//'}
+          color={text === 'https://ethernalswap.com//' ? '#FFFFFF' : '#BDC2C4'}
         >
           {text}
         </Text>
