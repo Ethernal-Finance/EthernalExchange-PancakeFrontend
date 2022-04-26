@@ -43,7 +43,7 @@ const PhishingWarningBanner: React.FC = () => {
   const { t } = useTranslation()
   const [, hideBanner] = usePhishingBannerManager()
   const { isMobile, isMd } = useMatchBreakpoints()
-  const warningText = t("please make sure you're visiting https://Ethernalswap.com/ - check the URL carefully.")
+  const warningText = t("please make sure you're visiting https://ethernalswap.com/ - check the URL carefully.")
   const warningTextAsParts = warningText.split(/(https:\/\/ethernalswap.com)/g)
   const warningTextComponent = (
     <>
